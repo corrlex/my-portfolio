@@ -11,3 +11,10 @@ img {
     so it takes 100% width of the parent */
     max-width: 100%;
 }
+
+img {
+    width: 100%;
+    border: 1px 50% black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+  }
