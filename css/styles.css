@@ -2,19 +2,44 @@ body {
     font-family: 'IBM Plex Mono', monospace;
 }
 
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
 h1, h2, .skills-list {
     font-family: 'Inknut Antiqua', serif;
 }
 
 img {
-    /* this is limiting the width of the image, 
-    so it takes 100% width of the parent */
     max-width: 100%;
-}
-
-img {
-    width: 100%;
     border: 1px 50% black;
     border-radius: 10px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
   }
+
+nav {
+    background-color: #DBEBF4;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav ul {
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+
+header {
+    top: 110px;
+    position: relative;
+}
