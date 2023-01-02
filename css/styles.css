@@ -19,6 +19,10 @@ h1, h2, .skills-list {
     border-radius: 3px;
 }
 
+img {
+    max-width: 100%;
+}
+
 nav {
     background-color: #DBEBF4;
     position: fixed;
